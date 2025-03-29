@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Projects = () => {
     const projects = [
         {
-            title: "personal portifolio in next js",
+            title: "portifolio in next js",
             description: "A full-stack e-commerce platform built with Next.js, Node.js, and MongoDB",
             image: "/profile1.png",
             technologies: ["Next.js", "Node.js", "MongoDB", "Tailwind CSS"],
@@ -21,7 +21,7 @@ const Projects = () => {
             githubLink: "https://github.com/username/project2"
         },
         {
-            title: "My portfolio Website with angular js",
+            title: "portfolio Website with angular js",
             description: "A modern portfolio website showcasing my work and skills",
             image: "/portifolio.jpg",
             technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],

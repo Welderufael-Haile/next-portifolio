@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const About = () => {
     return (
-        <section className="py-20 md:w-full bg-gray-50 dark:bg-gray-900">
+        <section className="py-20 w-full bg-gray-50 dark:bg-gray-900">
             <div className="container mx-auto px-4">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -20,15 +20,15 @@ const About = () => {
                     </p>
                 </motion.div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     {/* Image Section */}
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.5 }}
-                        className="relative"
+                        className="relative flex justify-center"
                     >
-                        <div className="relative h-[500px] w-[500px] transition duration-300 transform hover:scale-105 animate-bolb rounded-full ml-16 overflow-hidden">
+                        <div className="relative h-64 w-64 sm:h-80 sm:w-80 md:h-96 md:w-96 lg:h-[500px] lg:w-[500px] transition duration-300 transform hover:scale-105 animate-bolb rounded-full overflow-hidden">
                             <Image
                                 src="/well.jpg"
                                 alt="About Me"
@@ -44,7 +44,7 @@ const About = () => {
                         initial={{ opacity: 0, x: 50 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.5 }}
-                        className="space-y-6"
+                        className="space-y-6 text-center lg:text-left"
                     >
                         <h3 className="text-2xl font-bold text-gray-800 dark:text-white">
                             Web Developer
@@ -58,7 +58,7 @@ const About = () => {
 
                         <p className="text-gray-600 dark:text-gray-300">
                             I specialize in building responsive web applications using modern technologies
-                            like React, Next.js, and angular js. My approach to development focuses on
+                            like React, Next.js, and AngularJS. My approach to development focuses on
                             creating user-centric designs that not only look great but also provide
                             an excellent user experience.
                         </p>
@@ -70,9 +70,9 @@ const About = () => {
                                     Education
                                 </h4>
                                 <p className="text-gray-600 dark:text-gray-300">
-                                    I have  BSc in Software Engineering
+                                    I have a BSc in Software Engineering
                                     <br />
-                                    In Micro Link Information Techinology Collage
+                                    In Micro Link Information Technology College
                                 </p>
                             </div>
                             <div>
@@ -82,7 +82,7 @@ const About = () => {
                                 <p className="text-gray-600 dark:text-gray-300">
                                     2+ Years
                                     <br />
-                                    Frontend Development In Angular and Fullstack In Next.js
+                                    Frontend Development in Angular and Fullstack in React,Next.js
                                 </p>
                             </div>
                         </div>

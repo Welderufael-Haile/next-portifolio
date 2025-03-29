@@ -31,7 +31,7 @@ const HomePage = () => {
               className="mb-8 relative"
             >
               <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600 mb-4">
-                Welcome to My Portfolio
+                Welcome to well Portfolio
                 <div className="absolute -bottom-2 left-0 w-3/4 h-1 bg-gradient-to-r from-blue-400 to-purple-600 rounded-full"></div>
               </h1>
               <div className="text-xl md:text-2xl text-gray-700 dark:text-gray-300">
