@@ -10,7 +10,7 @@ const Projects = () => {
             image: "/profile1.png",
             technologies: ["Next.js", "Node.js", "MongoDB", "Tailwind CSS"],
             liveLink: "https://project1.com",
-            githubLink: "https://github.com/username/project1"
+            githubLink: "https://github.com/Welderufael-Haile/next-portifolio"
         },
         {
             title: "food delivery app",
@@ -18,12 +18,38 @@ const Projects = () => {
             image: "/about.png",
             technologies: ["React", "Redux", "Firebase", "Material-UI"],
             liveLink: "https://project2.com",
-            githubLink: "https://github.com/username/project2"
+            githubLink: "https://github.com/Welderufael-Haile/full-stuck-food-delivery"
+        },
+       
+        {
+            title: "Ecommerce website",
+            description: "A modern ecommerce website showcasing products and features",
+            image: "/ecommerce.jpg",
+            technologies: ["Next.js", "Tailwind CSS","express js", "maysql","node js"],
+            liveLink: "https://project3.com",
+            githubLink: "https://github.com/username/project3"
+        },
+        {
+            title: "hotel Website",
+            description: "A modern hotel website showcasing rooms and aminities",
+            image: "/hotel.jpg",
+            technologies: ["react.js", "Tailwind CSS", "my sql"],
+            liveLink: "https://project3.com",
+            githubLink: "https://github.com/Welderufael-Haile/react-hotel-website"
         },
         {
             title: "portfolio Website with angular js",
             description: "A modern portfolio website showcasing my work and skills",
             image: "/portifolio.jpg",
+            technologies: ["angular.js", "Tailwind CSS", "typescript"],
+            liveLink: "https://project3.com",
+            githubLink: "https://github.com/Welderufael-Haile/my-portifolio-with-angular"
+
+        },
+        {
+            title: "School managment system Website",
+            description: "A modern SMS web app showcasing students and teachers detail,students registration forms grading system and more ",
+            image: "/school.jpg",
             technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
             liveLink: "https://project3.com",
             githubLink: "https://github.com/username/project3"
