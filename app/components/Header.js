@@ -38,7 +38,7 @@ const Header = () => {
                         {/* Theme Toggle Button */}
                         <button
                             onClick={toggleTheme}
-                            className="p-2 rounded-full hover:bg-gray-200 z-10 dark:hover:bg-gray-700 transition-colors"
+                            className="p-2 rounded-full sm:block hover:bg-gray-200 z-10 dark:hover:bg-gray-700 transition-colors"
                             aria-label="Toggle Theme"
                         >
                             {theme === 'light' ? (
@@ -57,7 +57,7 @@ const Header = () => {
 
                     {/* Mobile Menu Button */}
                     <button
-                        className="md:hidden text-white focus:outline-none"
+                        className="md:hidden text-black dark:text-white focus:outline-none"
                         onClick={toggleMenu}
                     >
                         <svg

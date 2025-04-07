@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Projects = () => {
     const projects = [
         {
-            title: "portifolio in next js",
+            title: "Personal portifolio in next js",
             description: "A full-stack e-commerce platform built with Next.js, Node.js, and MongoDB",
             image: "/profile1.png",
             technologies: ["Next.js", "Node.js", "MongoDB", "Tailwind CSS"],
@@ -13,18 +13,18 @@ const Projects = () => {
             githubLink: "https://github.com/Welderufael-Haile/next-portifolio"
         },
         {
-            title: "food delivery app",
+            title: "food delivery web app",
             description: "i build online food delivey web with next js  ",
-            image: "/about.png",
-            technologies: ["React", "Redux", "Firebase", "Material-UI"],
+            image: "/food.png",
+            technologies: ["next js", "context api", "mySQL", "tailwindcss","clerk"],
             liveLink: "https://project2.com",
             githubLink: "https://github.com/Welderufael-Haile/full-stuck-food-delivery"
         },
        
         {
-            title: "Ecommerce website",
+            title: "Ecommerce web app",
             description: "A modern ecommerce website showcasing products and features",
-            image: "/ecommerce.jpg",
+            image: "/fashion.jpg",
             technologies: ["Next.js", "Tailwind CSS","express js", "maysql","node js"],
             liveLink: "https://project3.com",
             githubLink: "https://github.com/username/project3"
@@ -40,7 +40,7 @@ const Projects = () => {
         {
             title: "portfolio Website with angular js",
             description: "A modern portfolio website showcasing my work and skills",
-            image: "/portifolio.jpg",
+            image: "/profile1.png",
             technologies: ["angular.js", "Tailwind CSS", "typescript"],
             liveLink: "https://project3.com",
             githubLink: "https://github.com/Welderufael-Haile/my-portifolio-with-angular"
