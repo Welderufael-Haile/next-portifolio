@@ -55,10 +55,10 @@ const Projects = () => {
             githubLink: "https://github.com/Welderufael-Haile/full-stuck-food-delivery.git"
         },
         {
-            title: "multi steps registration form",
-            description: "A  ",
+            title: "Employee Registration Form",
+            description: "A simple and multi steps employee registration form with validation ",
             image: "/registration.jpg",
-            technologies: ["Next.js", "Tailwind CSS", " "],
+            technologies: ["Next.js", "Tailwind CSS", "mySQL "],
             liveLink: "https://project3.com",
             githubLink: "https://github.com/Welderufael-Haile/nextjs-registration-form.git"
         },
