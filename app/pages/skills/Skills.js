@@ -20,7 +20,7 @@ const Skills = () => {
         ],
         "Tools & Others": [
             { name: "Git", level: 85 },
-            { name: "Docker", level: 70 },
+            { name: "github", level: 70 },
             { name: "AWS", level: 65 },
             { name: "Figma", level: 75 },
         ]

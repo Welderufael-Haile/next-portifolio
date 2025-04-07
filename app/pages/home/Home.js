@@ -31,7 +31,7 @@ const HomePage = () => {
               className="mb-8 relative"
             >
               <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600 mb-4">
-                Welcome to well Portfolio
+                Welcome to well Solution
                 <div className="absolute -bottom-2 left-0 w-3/4 h-1 bg-gradient-to-r from-blue-400 to-purple-600 rounded-full"></div>
               </h1>
               <div className="text-xl md:text-2xl text-gray-700 dark:text-gray-300">
@@ -52,7 +52,7 @@ const HomePage = () => {
             </motion.div>
 
             {/* Animated Cards */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-700  dark:text-white mb-8">
               {[
                 { title: 'Creative', icon: '🎨', delay: 0.4 },
                 { title: 'Innovative', icon: '💡', delay: 0.6 },
@@ -64,7 +64,7 @@ const HomePage = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: item.delay }}
-                  className="bg-white/10 backdrop-blur-lg rounded-xl p-4 hover:bg-white/20 transition-all duration-300 border border-gray-200 dark:border-gray-700"
+                  className="bg-white/10 backdrop-blur-lg rounded-xl p-4 hover:bg-gray-300 transition-all duration-300 border border-gray-200 dark:border-gray-700"
                 >
                   <div className="text-3xl mb-2">{item.icon}</div>
                   <h3 className="text-lg font-semibold">{item.title}</h3>
