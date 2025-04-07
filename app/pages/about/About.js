@@ -71,11 +71,10 @@ const About = () => {
                                 </h4>
                                 <p className="text-gray-600 dark:text-gray-300">
                                     I have a BSc in Software Engineering
-                                    and i am certified Frontend development(React/nextjs and AngularJS) from bytePulse tech and
-                                     in programing fundamentals from udacity.com
-
                                     <br />
                                     In Micro Link Information Technology College
+                                    and i am certified Frontend development(React/nextjs and AngularJS) from bytePulse tech and
+                                     in programing fundamentals from udacity.com
                                 </p>
                             </div>
                             <div>
