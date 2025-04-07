@@ -51,14 +51,14 @@ const About = () => {
                         </h3>
 
                         <p className="text-gray-600 dark:text-gray-300">
-                            I am a passionate web developer with over 5 years of experience in creating
+                            I am a passionate web developer with over 1 year of experience in creating
                             beautiful and functional websites. My journey in web development started
                             when I discovered my love for combining creativity with technical solutions.
                         </p>
 
                         <p className="text-gray-600 dark:text-gray-300">
-                            I specialize in building responsive web applications using modern technologies
-                            like React, Next.js, and AngularJS. My approach to development focuses on
+                            I specialize in building responsive websites and web applications using modern technologies
+                            like React, Next.js,nodej, expressjs and AngularJS. My approach to development focuses on
                             creating user-centric designs that not only look great but also provide
                             an excellent user experience.
                         </p>
@@ -71,6 +71,9 @@ const About = () => {
                                 </h4>
                                 <p className="text-gray-600 dark:text-gray-300">
                                     I have a BSc in Software Engineering
+                                    and i am certified Frontend development(React/nextjs and AngularJS) from bytePulse tech and
+                                     in programing fundamentals from udacity.com
+
                                     <br />
                                     In Micro Link Information Technology College
                                 </p>
