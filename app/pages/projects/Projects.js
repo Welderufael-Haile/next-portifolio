@@ -24,7 +24,7 @@ const Projects = () => {
         {
             title: "Ecommerce web app",
             description: "A modern ecommerce website showcasing products and features",
-            image: "/fashion.jpg",
+            image: "/fashion.png",
             technologies: ["Next.js", "Tailwind CSS","express js", "maysql","node js"],
             liveLink: "https://project3.com",
             githubLink: "https://github.com/username/project3"
