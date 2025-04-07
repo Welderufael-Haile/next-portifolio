@@ -16,7 +16,7 @@ const Header = () => {
             <nav className="container mx-auto px-6 py-4">
                 <div className="flex items-center justify-between">
                     <Link href="/" className="text-2xl font-bold">
-                        WELDERUFAEL HAILE
+                        WellSolution
                     </Link>
 
                     {/* Desktop Navigation */}
@@ -38,7 +38,7 @@ const Header = () => {
                         {/* Theme Toggle Button */}
                         <button
                             onClick={toggleTheme}
-                            className="p-2 rounded-full sm:block hover:bg-gray-200 z-10 dark:hover:bg-gray-700 transition-colors"
+                            className="p-2 rounded-full  hover:bg-gray-200 z-10 dark:hover:bg-gray-700 transition-colors"
                             aria-label="Toggle Theme"
                         >
                             {theme === 'light' ? (

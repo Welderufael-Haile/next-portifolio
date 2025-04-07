@@ -50,9 +50,17 @@ const Projects = () => {
             title: "School managment system Website",
             description: "A modern SMS web app showcasing students and teachers detail,students registration forms grading system and more ",
             image: "/school.jpg",
-            technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
+            technologies: ["Next.js", "Tailwind CSS", "mySQL",'express js','multer'],
             liveLink: "https://project3.com",
-            githubLink: "https://github.com/username/project3"
+            githubLink: "https://github.com/Welderufael-Haile/full-stuck-food-delivery.git"
+        },
+        {
+            title: "multi steps registration form",
+            description: "A  ",
+            image: "/registration.jpg",
+            technologies: ["Next.js", "Tailwind CSS", " "],
+            liveLink: "https://project3.com",
+            githubLink: "https://github.com/Welderufael-Haile/nextjs-registration-form.git"
         },
         // Add more projects as needed
     ];
