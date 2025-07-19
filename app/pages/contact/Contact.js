@@ -154,7 +154,7 @@ const Contact = () => {
                                     />
                                 </div>
                                 <div>
-                                    <label htmlFor="message" className="block text-gray-700 dark:text-gray-300 mb-2">Message</label>
+                                    <label htmlFor="message" className="block  dark:text-gray-300 mb-2">Message</label>
                                     <textarea
                                         id="message"
                                         name="message"

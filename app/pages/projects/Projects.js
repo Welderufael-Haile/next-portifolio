@@ -50,8 +50,8 @@ const Projects = () => {
             title: "School managment system Website",
             description: "A modern SMS web app showcasing students and teachers detail,students registration forms grading system and more ",
             image: "/school.jpg",
-            technologies: ["Next.js", "Tailwind CSS", "mySQL",'express js','multer'],
-            liveLink: "https://project3.com",
+            technologies: ["Next.js", "Tailwind CSS", "mySQL", "chart.js",'express js','multer'],
+            liveLink: "https://dimondschool.vercel.app",
             githubLink: "https://github.com/Welderufael-Haile/full-stuck-food-delivery.git"
         },
         {
