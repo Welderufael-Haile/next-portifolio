@@ -5,22 +5,23 @@ const Skills = () => {
     const skills = {
         "Frontend Development": [
             { name: "HTML5", level: 90 },
-            { name: "CSS3/SCSS", level: 85 },
+            { name: "CSS3/SCSS", level: 95 },
             { name: "JavaScript", level: 88 },
-            { name: "React.js", level: 85 },
-            { name: "Next.js", level: 80 },
-            { name: "Angular.js", level: 80 },
-            { name: "Tailwind CSS", level: 85 },
+            { name: "React.js", level: 90 },
+            { name: "Next.js", level: 95 },
+            { name: "Angular.js", level: 70 },
+            { name: "Tailwind CSS", level: 95 },
         ],
         "Backend Development": [
-            { name: "Node.js", level: 75 },
-            { name: "Express.js", level: 78 },
+            { name: "Node.js", level: 80 },
+            { name: "Express.js", level: 85 },
             { name: "MongoDB", level: 75 },
-            { name: "mySQL", level: 70 },
+            { name: "mySQL", level: 90 },
+            {name: "prisma ORM", level:90}
         ],
         "Tools & Others": [
-            { name: "Git", level: 85 },
-            { name: "github", level: 70 },
+            { name: "Git", level: 95 },
+            { name: "github", level: 90 },
             { name: "AWS", level: 65 },
             { name: "Figma", level: 75 },
         ]
