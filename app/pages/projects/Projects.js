@@ -7,9 +7,9 @@ const Projects = () => {
         {
             title: "Personal portifolio in next js",
             description: "A this my own personal portifolio website built with next.js showcasing my skills and projects.",
-            image: "/profile1.png",
+            image: "/profile.png",
             technologies: ["Next.js", "Node.js", "MongoDB", "Tailwind CSS"],
-            liveLink: "https://project1.com",
+            liveLink: "https://well-profile.vercel.app/",
             githubLink: "https://github.com/Welderufael-Haile/next-portifolio"
         },
         {
