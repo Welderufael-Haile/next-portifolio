@@ -6,7 +6,7 @@ const Projects = () => {
     const projects = [
         {
             title: "Personal portifolio in next js",
-            description: "A full-stack e-commerce platform built with Next.js, Node.js, and MongoDB",
+            description: "A this my own personal portifolio website built with next.js showcasing my skills and projects.",
             image: "/profile1.png",
             technologies: ["Next.js", "Node.js", "MongoDB", "Tailwind CSS"],
             liveLink: "https://project1.com",
@@ -31,36 +31,28 @@ const Projects = () => {
         },
         {
             title: "hotel Website",
-            description: "A modern hotel website showcasing rooms and aminities",
+            description: "A modern hotel website showcasing  rooms, srvices and booking features",
             image: "/hotel.jpg",
             technologies: ["react.js", "Tailwind CSS", "my sql"],
-            liveLink: "https://project3.com",
+            liveLink: "https://react-hotel-website.vercel.app/",
             githubLink: "https://github.com/Welderufael-Haile/react-hotel-website"
         },
-        {
-            title: "portfolio Website with angular js",
-            description: "A modern portfolio website showcasing my work and skills",
-            image: "/profile1.png",
-            technologies: ["angular.js", "Tailwind CSS", "typescript"],
-            liveLink: "https://project3.com",
-            githubLink: "https://github.com/Welderufael-Haile/my-portifolio-with-angular"
-
-        },
+     
         {
             title: "School managment system Website",
             description: "A modern SMS web app showcasing students and teachers detail,students registration forms grading system and more ",
-            image: "/school.jpg",
+            image: "/school.png",
             technologies: ["Next.js", "Tailwind CSS", "mySQL", "chart.js",'express js','multer'],
             liveLink: "https://dimondschool.vercel.app",
             githubLink: "https://github.com/Welderufael-Haile/full-stuck-food-delivery.git"
         },
         {
-            title: "Employee Registration Form",
-            description: "A simple and multi steps employee registration form with validation ",
-            image: "/registration.jpg",
-            technologies: ["Next.js", "Tailwind CSS", "mySQL "],
-            liveLink: "https://project3.com",
-            githubLink: "https://github.com/Welderufael-Haile/nextjs-registration-form.git"
+            title: "Digital-Library",
+            description: "This is a digital library web app that allows users to register, login, and manage their books to download,open and add to their  favoutite page to acces easily and admin can post books and manage users",
+            image: "/digital.png",
+            technologies: ["Next.js", "Tailwind CSS","chart.js","mySQL", 'Express.js',"multer","prisma ORM"],
+            liveLink: "https://bookstore-app-pearl.vercel.app/",
+            githubLink: "https://github.com/Welderufael-Haile"
         },
         // Add more projects as needed
     ];
