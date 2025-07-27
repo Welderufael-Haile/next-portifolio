@@ -13,7 +13,7 @@ const Header = () => {
 
     return (
         <header className="fixed w-full bg-white dark:bg-gray-900 text-gray-800 dark:text-white shadow-lg z-50">
-            <nav className="container mx-auto px-6 py-4">
+            <nav className="container mx-auto px-6 py-3">
                 <div className="flex items-center justify-between">
                     <Link href="/" className="text-2xl font-bold">
                         WellSolution
@@ -22,16 +22,16 @@ const Header = () => {
                     {/* Desktop Navigation */}
                     <div className="hidden md:flex items-center space-x-8">
 
-                        <Link href="/pages/about" className="hover:text-blue-400 transition duration-300">
+                        <Link href="/pages/about" className="hover:bg-gray-200 dark:hover:bg-gray-500 px-3 py-2 rounded-lg transition duration-300">
                             About
                         </Link>
-                        <Link href="/pages/skills" className="hover:text-blue-400 transition duration-300">
+                        <Link href="/pages/skills" className="hover:bg-gray-200 dark:hover:bg-gray-500 px-3 py-2 rounded-lg transition duration-300">
                             Skills
                         </Link>
-                        <Link href="/pages/projects" className="hover:text-blue-400 transition duration-300">
+                        <Link href="/pages/projects" className="hover:bg-gray-200 dark:hover:bg-gray-500 px-3 py-2 rounded-lg transition duration-300">
                             Projects
                         </Link>
-                        <Link href="/pages/contact" className="hover:text-blue-400 transition duration-300">
+                        <Link href="/pages/contact" className="hover:bg-gray-200 dark:hover:bg-gray-500 px-3 py-2 rounded-lg transition duration-300">
                             Contact
                         </Link>
 
@@ -80,7 +80,7 @@ const Header = () => {
 
                 {/* Mobile Navigation */}
                 {isMenuOpen && (
-                    <div className="md:hidden mt-4 space-y-4">
+                    <div className="md:hidden mt-4 space-y-4 text-center">
                         {/* <Link href="/"
                             className="block hover:text-blue-400 transition duration-300"
                             onClick={toggleMenu}
@@ -88,25 +88,25 @@ const Header = () => {
                             Home
                         </Link> */}
                         <Link href="/pages/about"
-                            className="block hover:text-blue-400 transition duration-300"
+                            className="block hover:bg-gray-200 dark:hover:bg-gray-500 px-3 py-2 rounded-lg transition duration-300"
                             onClick={toggleMenu}
                         >
                             About
                         </Link>
                         <Link href="/pages/skills"
-                            className="block hover:text-blue-400 transition duration-300"
+                            className="block hover:bg-gray-200 dark:hover:bg-gray-500 px-3 py-2 rounded-lg transition duration-300"
                             onClick={toggleMenu}
                         >
                             Skills
                         </Link>
                         <Link href="/pages/projects"
-                            className="block hover:text-blue-400 transition duration-300"
+                            className="block hover:bg-gray-200 dark:hover:bg-gray-500 px-3 py-2 rounded-lg transition duration-300"
                             onClick={toggleMenu}
                         >
                             Projects
                         </Link>
                         <Link href="/pages/contact"
-                            className="block hover:text-blue-400 transition duration-300"
+                            className="block hover:bg-gray-200 dark:hover:bg-gray-500 px-3 py-2 rounded-lg transition duration-300"
                             onClick={toggleMenu}
                         >
                             Contact

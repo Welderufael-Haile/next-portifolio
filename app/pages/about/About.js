@@ -4,7 +4,15 @@ import { motion } from 'framer-motion';
 
 const About = () => {
     return (
-        <section className="py-20 w-full bg-gray-50 dark:bg-gray-900">
+        <section
+            className="py-20 w-full bg-gray-50 dark:bg-gray-900">
+           {/* style={{
+                backgroundImage: "url('/bg.png')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat"
+            }} */}
+        
             <div className="container mx-auto px-4">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -58,7 +66,7 @@ const About = () => {
 
                         <p className="text-gray-600 dark:text-gray-300">
                             I specialize in building responsive websites and web applications using modern technologies
-                            like React, Next.js,nodej, expressjs and AngularJS. My approach to development focuses on
+                            like React, Next.js,node.js, express.js and AngularJS. My approach to development focuses on
                             creating user-centric designs that not only look great but also provide
                             an excellent user experience.
                         </p>
@@ -92,21 +100,21 @@ const About = () => {
                         {/* Stats */}
                         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6">
                             <div className="text-center">
-                                <h5 className="text-3xl font-bold text-blue-600">5+</h5>
+                                <h5 className="text-3xl font-bold text-blue-600">6+</h5>
                                 <p className="text-gray-600 dark:text-gray-300">Projects</p>
                             </div>
                             <div className="text-center">
-                                <h5 className="text-3xl font-bold text-blue-600">10+</h5>
+                                <h5 className="text-3xl font-bold text-blue-600">2+</h5>
                                 <p className="text-gray-600 dark:text-gray-300">Clients</p>
                             </div>
                             <div className="text-center">
-                                <h5 className="text-3xl font-bold text-blue-600">2+</h5>
+                                <h5 className="text-3xl font-bold text-blue-600">1+</h5>
                                 <p className="text-gray-600 dark:text-gray-300">Years</p>
                             </div>
-                            <div className="text-center">
+                           {/*} <div className="text-center">
                                 <h5 className="text-3xl font-bold text-blue-600">1+</h5>
                                 <p className="text-gray-600 dark:text-gray-300">Awards</p>
-                            </div>
+                            </div>*/}
                         </div>
 
                         {/* Download CV Button */}
