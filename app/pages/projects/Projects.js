@@ -14,10 +14,10 @@ const Projects = () => {
         },
         {
             title: "food delivery web app",
-            description: "i build online food delivey web with next js  ",
+            description: "A modern food delivery web app with Next.js and clerk authentication,  allowing users to order food online.   ",
             image: "/food.png",
             technologies: ["next js", "context api", "mySQL", "tailwindcss","clerk"],
-            liveLink: "https://project2.com",
+            liveLink: "https://full-stuck-food-delivery-f5lu.vercel.app/",
             githubLink: "https://github.com/Welderufael-Haile/full-stuck-food-delivery"
         },
        
