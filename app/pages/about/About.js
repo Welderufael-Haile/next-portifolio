@@ -116,11 +116,19 @@ const About = () => {
                         {/* Download CV Button */}
                         <div className="pt-6 text-center">
                             <a
-                                href="/Welderufael_Haile_CV.docx"
+                                href="/Welderufael_Haile_CV.pdf"
                                 download
-                                className="inline-block bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-500 transition duration-300"
+                                className="inline-block bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-500 transition duration-300 mr-4"
                             >
                                 Download CV
+                            </a>
+                            <a
+                                href="/Welderufael_Haile_CV.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-block bg-transparent border border-blue-600 text-blue-600 px-8 py-3 rounded-full hover:bg-blue-50 dark:hover:bg-gray-800 transition duration-300"
+                            >
+                                View My CV
                             </a>
                         </div>
                     </motion.div>
