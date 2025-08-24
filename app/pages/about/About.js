@@ -4,16 +4,9 @@ import { motion } from 'framer-motion';
 
 const About = () => {
     return (
-        <section
-            className="py-20 w-full bg-gray-50 dark:bg-gray-900 rounded shadow-xl border-b">
-           {/* style={{
-                backgroundImage: "url('/bg.png')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat"
-            }} */}
-        
+        <section className="py-20 w-full bg-gray-50 dark:bg-gray-900 rounded shadow-xl border-b">
             <div className="container mx-auto px-4">
+                {/* Section Title */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -28,7 +21,7 @@ const About = () => {
                     </p>
                 </motion.div>
 
-                <div className="grid grid-cols-1  items-center">
+                <div className="grid grid-cols-1 items-center">
                     {/* Image Section */}
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
@@ -36,7 +29,7 @@ const About = () => {
                         transition={{ duration: 0.5 }}
                         className="relative flex justify-center"
                     >
-                        <div className="relative  h-64 w-64 sm:h-80 sm:w-80 md:h-96 md:w-96 lg:h-[400px] lg:w-[400px] transition duration-300 transform hover:scale-105 animate-bolb rounded-full overflow-hidden">
+                        <div className="relative h-64 w-64 sm:h-80 sm:w-80 md:h-96 md:w-96 lg:h-[400px] lg:w-[400px] transition duration-300 transform hover:scale-105 animate-bolb rounded-full overflow-hidden">
                             <Image
                                 src="/well.jpg"
                                 alt="About Me"
@@ -44,7 +37,6 @@ const About = () => {
                                 className="object-cover mx-auto max-w-5xl"
                                 priority
                             />
-                            
                         </div>
                     </motion.div>
 
@@ -53,37 +45,45 @@ const About = () => {
                         initial={{ opacity: 0, x: 50 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.5 }}
-                        className="space-y-6 max-w-4xl mx-auto ">
-                       <h1 className='text-black dark:text-white font-bold text-lg text-center pt-2 mb-4'>I am Welderufeal Haile</h1>
-                        <h3 className="text-2xl font-bold text-gray-800 dark:text-white t pt-5">
-                            Web Developer
+                        className="space-y-6 max-w-4xl mx-auto"
+                    >
+                        <h1 className="text-black dark:text-white font-bold text-lg text-center pt-2 mb-4">
+                            I am Welderufael Haile
+                        </h1>
+                        <h3 className="text-2xl font-bold text-gray-800 dark:text-white pt-5">
+                            Full Stack Web Developer
                         </h3>
 
                         <p className="text-gray-600 dark:text-gray-300">
-                            I am a passionate Fullstack  web developer with over 1 year of experience in creating
-                            beautiful and functional websites. My journey in web development started
-                            when I discovered my love for combining creativity with technical solutions.
+                            Dynamic and results-driven Full Stack Web Developer with hands-on experience in 
+                            building scalable and user-friendly web applications. I enjoy combining creativity 
+                            with technical solutions to deliver impactful projects.
                         </p>
 
                         <p className="text-gray-600 dark:text-gray-300">
-                            I specialize in building responsive websites and web applications using modern technologies
-                            like React, Next.js,node.js, express.js and AngularJS. My approach to development focuses on
-                            creating user-centric designs that not only look great but also provide
-                            an excellent user experience.
+                            Skilled in React.js, Next.js, Angular.js, Node.js, Express.js, MySQL, PostgreSQL, 
+                            MongoDB (Mongoose), and PrismaORM. I also have experience with Redux, Tailwind CSS, 
+                            TypeScript, Git/GitHub, and Figma for UI/UX design.
                         </p>
 
-                        {/* Personal Info */}
+                        <p className="text-gray-600 dark:text-gray-300">
+                            At <b>Byte Pulse</b>, I built a School Management System and a Digital Library 
+                            system. I also developed my own portfolio website with Next.js and a Food Delivery 
+                            App as a training project. In parallel, I work as an <b>IT & Web Development Teacher</b> 
+                            at AI School of Computer, where I mentor students in programming and project building.
+                        </p>
+
+                        {/* Education & Experience */}
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
                             <div>
                                 <h4 className="font-semibold text-gray-800 dark:text-white mb-2">
                                     Education
                                 </h4>
                                 <p className="text-gray-600 dark:text-gray-300">
-                                    I have a BSc in Software Engineering
-                                    <br />
-                                    In Micro Link Information Technology College
-                                    and i am certified Frontend development(React/nextjs and AngularJS) from bytePulse tech and
-                                     in programing fundamentals from udacity.com
+                                    BSc in Software Engineering <br />
+                                    Micro Link Information Technology & Business College <br />
+                                    Certified: Programming Fundamentals (Udacity), 
+                                    Full Stack Development (Byte Pulse)
                                 </p>
                             </div>
                             <div>
@@ -91,9 +91,8 @@ const About = () => {
                                     Experience
                                 </h4>
                                 <p className="text-gray-600 dark:text-gray-300">
-                                    2+ Years
-                                    <br />
-                                    Frontend Development in Angular and Fullstack in React,Next.js
+                                    Frontend & Fullstack Developer – 2+ Years <br />
+                                    Projects in React, Next.js, Angular, Express.js, MySQL, PrismaORM
                                 </p>
                             </div>
                         </div>
@@ -110,18 +109,14 @@ const About = () => {
                             </div>
                             <div className="text-center">
                                 <h5 className="text-3xl font-bold text-blue-600">2+</h5>
-                                <p className="text-gray-600 dark:text-gray-300">Years</p>
+                                <p className="text-gray-600 dark:text-gray-300">Years Experience</p>
                             </div>
-                           {/*} <div className="text-center">
-                                <h5 className="text-3xl font-bold text-blue-600">1+</h5>
-                                <p className="text-gray-600 dark:text-gray-300">Awards</p>
-                            </div>*/}
                         </div>
 
                         {/* Download CV Button */}
                         <div className="pt-6 text-center">
                             <a
-                                href="/well cv.docx"
+                                href="/Welderufael_Haile_CV.docx"
                                 download
                                 className="inline-block bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-500 transition duration-300"
                             >
