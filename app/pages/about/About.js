@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const About = () => {
     return (
         <section
-            className="py-20 w-full bg-gray-50 dark:bg-gray-900">
+            className="py-20 w-full bg-gray-50 dark:bg-gray-900 rounded shadow-xl border-b">
            {/* style={{
                 backgroundImage: "url('/bg.png')",
                 backgroundSize: "cover",
@@ -18,17 +18,17 @@ const About = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
-                    className="text-center mb-12"
+                    className="text-center"
                 >
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4">
                         About Me
                     </h2>
-                    <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+                    <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-5">
                         Get to know more about me and my journey in web development
                     </p>
                 </motion.div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div className="grid grid-cols-1  items-center">
                     {/* Image Section */}
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
@@ -36,14 +36,15 @@ const About = () => {
                         transition={{ duration: 0.5 }}
                         className="relative flex justify-center"
                     >
-                        <div className="relative h-64 w-64 sm:h-80 sm:w-80 md:h-96 md:w-96 lg:h-[500px] lg:w-[500px] transition duration-300 transform hover:scale-105 animate-bolb rounded-full overflow-hidden">
+                        <div className="relative  h-64 w-64 sm:h-80 sm:w-80 md:h-96 md:w-96 lg:h-[400px] lg:w-[400px] transition duration-300 transform hover:scale-105 animate-bolb rounded-full overflow-hidden">
                             <Image
                                 src="/well.jpg"
                                 alt="About Me"
                                 fill
-                                className="object-cover"
+                                className="object-cover mx-auto max-w-5xl"
                                 priority
                             />
+                            
                         </div>
                     </motion.div>
 
@@ -52,14 +53,14 @@ const About = () => {
                         initial={{ opacity: 0, x: 50 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.5 }}
-                        className="space-y-6 text-center lg:text-left"
-                    >
-                        <h3 className="text-2xl font-bold text-gray-800 dark:text-white">
+                        className="space-y-6 max-w-4xl mx-auto ">
+                       <h1 className='text-black dark:text-white font-bold text-lg text-center pt-2 mb-4'>I am Welderufeal Haile</h1>
+                        <h3 className="text-2xl font-bold text-gray-800 dark:text-white t pt-5">
                             Web Developer
                         </h3>
 
                         <p className="text-gray-600 dark:text-gray-300">
-                            I am a passionate web developer with over 1 year of experience in creating
+                            I am a passionate Fullstack  web developer with over 1 year of experience in creating
                             beautiful and functional websites. My journey in web development started
                             when I discovered my love for combining creativity with technical solutions.
                         </p>
@@ -108,7 +109,7 @@ const About = () => {
                                 <p className="text-gray-600 dark:text-gray-300">Clients</p>
                             </div>
                             <div className="text-center">
-                                <h5 className="text-3xl font-bold text-blue-600">1+</h5>
+                                <h5 className="text-3xl font-bold text-blue-600">2+</h5>
                                 <p className="text-gray-600 dark:text-gray-300">Years</p>
                             </div>
                            {/*} <div className="text-center">
@@ -118,11 +119,11 @@ const About = () => {
                         </div>
 
                         {/* Download CV Button */}
-                        <div className="pt-6">
+                        <div className="pt-6 text-center">
                             <a
                                 href="/well cv.docx"
                                 download
-                                className="inline-block bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition duration-300"
+                                className="inline-block bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-500 transition duration-300"
                             >
                                 Download CV
                             </a>

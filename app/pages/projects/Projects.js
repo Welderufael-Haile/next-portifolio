@@ -5,8 +5,8 @@ import Image from 'next/image';
 const Projects = () => {
     const projects = [
         {
-            title: "Personal portifolio in next js",
-            description: "A this my own personal portifolio website built with next.js showcasing my skills and projects.",
+            title: "My portifolio",
+            description: "A this my own personal portifolio website built with next.js showcasing my skill, experiance and projects.",
             image: "/profile.png",
             technologies: ["Next.js", "Node.js", "MongoDB", "Tailwind CSS"],
             liveLink: "https://well-profile.vercel.app/",
@@ -14,7 +14,7 @@ const Projects = () => {
         },
         {
             title: "food delivery web app",
-            description: "A modern food delivery web app with Next.js and clerk authentication,  allowing users to order food online.   ",
+            description: "A modern food delivery web app built in Next.js and clerk authentication,  allowing users to order food online.   ",
             image: "/food.png",
             technologies: ["next js", "context api", "mySQL", "tailwindcss","clerk"],
             liveLink: "https://full-stuck-food-delivery-f5lu.vercel.app/",
@@ -23,7 +23,7 @@ const Projects = () => {
        
         {
             title: "Ecommerce web app",
-            description: "A modern ecommerce website showcasing products and features",
+            description: "A modern ecommerce website showcasing products and features, this project has role based authentication user and admin and admin  dashboard includes manage products add,edit and delete products, manage users activity, mange orders from user",
             image: "/fashion.png",
             technologies: ["Next.js", "Tailwind CSS","express js", "maysql","node js"],
             liveLink: "https://project3.com",
@@ -31,7 +31,7 @@ const Projects = () => {
         },
         {
             title: "hotel Website",
-            description: "A modern hotel website showcasing  rooms, srvices and booking features",
+            description: "This is static hotel website biult in react,tailwindcss showcasing  rooms, srvices and booking features, and this  project is my first project in react",
             image: "/hotel.jpg",
             technologies: ["react.js", "Tailwind CSS", "my sql"],
             liveLink: "https://react-hotel-website.vercel.app/",
@@ -40,7 +40,7 @@ const Projects = () => {
      
         {
             title: "School managment system Website",
-            description: "A modern SMS web app showcasing students and teachers detail,students registration forms grading system and more ",
+            description: "A modern SMS web app helps has three role based authentication 1,admin manage the overall school activity  2,teacher add students mark only his assigned subject. 3,students are also view result securely    registration forms grading system and more ",
             image: "/school.png",
             technologies: ["Next.js", "Tailwind CSS", "mySQL", "chart.js",'express js','multer'],
             liveLink: "https://dimondschool.vercel.app",
@@ -74,14 +74,14 @@ const Projects = () => {
                     </p>
                 </motion.div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mx-auto max-w-6xl gap-12 ">
                     {projects.map((project, index) => (
                         <motion.div
                             key={index}
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
-                            className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden"
+                            className="bg-white dark:bg-gray-800  rounded-xl shadow-lg overflow-hidden  hover:scale-105"
                         >
                             <div className="relative h-64 w-full">
                                 <Image
