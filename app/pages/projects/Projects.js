@@ -41,7 +41,7 @@ const Projects = () => {
         {
             title: "School managment system Website",
             description: "A modern SMS web app helps has three role based authentication 1,admin manage the overall school activity  2,teacher add students mark only his assigned subject. 3,students are also view result securely    registration forms grading system and more ",
-            image: "/school.png",
+            image: "/school chart.png",
             technologies: ["Next.js", "Tailwind CSS", "mySQL", "chart.js",'express js','multer'],
             liveLink: "https://dimondschool.vercel.app",
             githubLink: "https://github.com/Welderufael-Haile/full-stuck-food-delivery.git"
@@ -74,7 +74,7 @@ const Projects = () => {
                     </p>
                 </motion.div>
 
-                <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mx-auto max-w-6xl gap-12 ">
+                <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mx-auto max-w-6xl gap-12  ">
                     {projects.map((project, index) => (
                         <motion.div
                             key={index}
@@ -83,7 +83,7 @@ const Projects = () => {
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                             className="bg-white dark:bg-gray-800  rounded-xl shadow-lg overflow-hidden  hover:scale-105"
                         >
-                            <div className="relative h-64 w-full">
+                            <div className="relative h-64 w-full ">
                                 <Image
                                     src={project.image}
                                     alt={project.title}
