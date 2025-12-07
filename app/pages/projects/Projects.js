@@ -81,7 +81,7 @@ const Projects = () => {
         {
             title: "Digital-Library",
             description: "This is a digital library web app that allows users to register, login, and manage their books to download,open and add to their favoutite page to acces easily and admin can post books and manage users",
-            images: ["/digital.png","/users.png","/video managment.png","/bookadmin.png"],
+            images: ["/digital.png","/users.png","/videomanagment.png","/bookadmin.png"],
             technologies: ["Next.js", "Tailwind CSS","chart.js","MySQL", "Express.js","multer","prisma ORM"],
             liveLink: "https://bookstore-app-pearl.vercel.app/",
             githubLink: "https://github.com/Welderufael-Haile"
