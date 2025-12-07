@@ -6,7 +6,7 @@ import Skills from "./pages/skills/Skills";
 import Projects from "./pages/projects/Projects";
 export default function Home() {
   return (
-    <div className="h-full mt-10">
+    <div className="h-full mt-7">
       <HomePage></HomePage>
       <About></About>
       <Skills></Skills>
