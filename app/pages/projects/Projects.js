@@ -35,7 +35,7 @@ const Projects = () => {
                 "Real-time school chat application for students and teachers with private and group channels, presence indicators, and instant messaging. Built with React on the frontend, Express + Socket.IO on the backend, Prisma ORM for database access, and Redux Toolkit for state management. Features include user authentication, message history, typing indicators, and optimized real-time updates for classroom collaboration.",
             images: ["/chat1.png", "/chat2.png", "/chat3.png","/chat dark.png"],
             technologies: ["React.js", "Tailwind CSS", "MySQL", "Express.js", "Prisma ORM", "Socket.IO", "Redux Toolkit"],
-            liveLink: "https://well-profile.vercel.app",
+           // liveLink: "https://well-profile.vercel.app",
             githubLink: "https://github.com/Welderufael-Haile"
         },
         {
@@ -59,7 +59,7 @@ const Projects = () => {
             description: "A modern ecommerce website showcasing products and features, this project has role based authentication user and admin and admin dashboard includes manage products add,edit and delete products, manage users activity, mange orders from user",
             images: ["/fashion.png","/fashion1.png"],
             technologies: ["Next.js", "Tailwind CSS","Express.js", "MySQL","Node.js"],
-            liveLink: "https://project3.com",
+            //liveLink: "https://project3.com",
             githubLink: "https://github.com/username/project3"
         },
         {
