@@ -31,7 +31,7 @@ const About = () => {
                     >
                         <div className="relative h-64 w-64 sm:h-80 sm:w-80 md:h-96 md:w-96 lg:h-[400px] lg:w-[400px] transition duration-300 transform hover:scale-105 animate-bolb rounded-full overflow-hidden">
                             <Image
-                                src="/well.jpg"
+                                src="/well.png"
                                 alt="About Me"
                                 fill
                                 className="object-cover mx-auto max-w-5xl"
